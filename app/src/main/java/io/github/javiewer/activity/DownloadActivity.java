@@ -14,18 +14,19 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.github.javiewer.JAViewer;
 import io.github.javiewer.R;
+import io.github.javiewer.R2;
 import io.github.javiewer.adapter.ViewPagerAdapter;
 import io.github.javiewer.fragment.DownloadFragment;
 
 public class DownloadActivity extends AppCompatActivity {
 
-    @BindView(R.id.download_toolbar)
+    @BindView(R2.id.download_toolbar)
     public Toolbar mToolbar;
 
-    @BindView(R.id.download_tabs)
+    @BindView(R2.id.download_tabs)
     public TabLayout mTabLayout;
 
-    @BindView(R.id.download_view_pager)
+    @BindView(R2.id.download_view_pager)
     public ViewPager mViewPager;
 
     public String keyword;

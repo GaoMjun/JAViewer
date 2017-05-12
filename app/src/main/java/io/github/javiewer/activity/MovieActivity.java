@@ -38,6 +38,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.github.javiewer.JAViewer;
 import io.github.javiewer.R;
+import io.github.javiewer.R2;
 import io.github.javiewer.adapter.ActressPaletteAdapter;
 import io.github.javiewer.adapter.MovieHeaderAdapter;
 import io.github.javiewer.adapter.ScreenshotAdapter;
@@ -56,19 +57,19 @@ public class MovieActivity extends SecureActivity {
 
     public Movie movie;
 
-    @BindView(R.id.toolbar_layout_background)
+    @BindView(R2.id.toolbar_layout_background)
     ImageView mToolbarLayoutBackground;
 
-    @BindView(R.id.movie_content)
+    @BindView(R2.id.movie_content)
     NestedScrollView mContent;
 
-    @BindView(R.id.movie_progress_bar)
+    @BindView(R2.id.movie_progress_bar)
     ProgressBar mProgressBar;
 
-    @BindView(R.id.fab)
+    @BindView(R2.id.fab)
     FloatingActionButton mFab;
 
-    @BindView(R.id.genre_flow_layout)
+    @BindView(R2.id.genre_flow_layout)
     FlowLayout mFlowLayout;
 
 

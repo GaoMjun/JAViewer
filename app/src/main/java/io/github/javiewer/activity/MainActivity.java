@@ -40,6 +40,7 @@ import butterknife.ButterKnife;
 import io.github.javiewer.JAViewer;
 import io.github.javiewer.Properties;
 import io.github.javiewer.R;
+import io.github.javiewer.R2;
 import io.github.javiewer.adapter.NavigationSpinnerAdapter;
 import io.github.javiewer.adapter.item.DataSource;
 import io.github.javiewer.fragment.ExtendedAppBarFragment;
@@ -57,16 +58,16 @@ public class MainActivity extends SecureActivity
 
     public Fragment currentFragment;
 
-    @BindView(R.id.nav_view)
+    @BindView(R2.id.nav_view)
     public NavigationView mNavigationView;
 
-    @BindView(R.id.app_bar)
+    @BindView(R2.id.app_bar)
     public AppBarLayout mAppBarLayout;
 
-    @BindView(R.id.search_view)
+    @BindView(R2.id.search_view)
     public SimpleSearchView mSearchView;
 
-    @BindView(R.id.drawer_layout)
+    @BindView(R2.id.drawer_layout)
     public DrawerLayout mDrawerLayout;
 
     int positionOfSpinner = 0;

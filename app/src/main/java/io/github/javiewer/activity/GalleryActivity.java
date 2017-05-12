@@ -43,6 +43,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import io.github.javiewer.JAViewer;
 import io.github.javiewer.R;
+import io.github.javiewer.R2;
 import io.github.javiewer.adapter.item.Movie;
 
 public class GalleryActivity extends SecureActivity {
@@ -102,10 +103,10 @@ public class GalleryActivity extends SecureActivity {
 
     GestureDetector detector;
 
-    @BindView(R.id.gallery_pager)
+    @BindView(R2.id.gallery_pager)
     public ViewPager mPager;
 
-    @BindView(R.id.toolbar_gallery)
+    @BindView(R2.id.toolbar_gallery)
     public Toolbar mToolbar;
 
     private String[] imageUrls;
