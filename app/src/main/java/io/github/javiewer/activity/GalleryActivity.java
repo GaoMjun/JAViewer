@@ -45,7 +45,7 @@ import io.github.javiewer.JAViewer;
 import io.github.javiewer.R;
 import io.github.javiewer.adapter.item.Movie;
 
-public class GalleryActivity extends AppCompatActivity {
+public class GalleryActivity extends SecureActivity {
 
     private static final boolean AUTO_HIDE = true;
     private static final int AUTO_HIDE_DELAY_MILLIS = 3000;

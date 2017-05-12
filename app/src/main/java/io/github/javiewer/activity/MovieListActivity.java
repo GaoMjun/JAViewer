@@ -10,7 +10,7 @@ import io.github.javiewer.R;
 import io.github.javiewer.fragment.MovieListFragment;
 import io.github.javiewer.view.ViewUtil;
 
-public class MovieListActivity extends AppCompatActivity {
+public class MovieListActivity extends SecureActivity {
 
     public static Intent newIntent(Context context, String title, String link) {
         Intent intent = new Intent(context, MovieListActivity.class);

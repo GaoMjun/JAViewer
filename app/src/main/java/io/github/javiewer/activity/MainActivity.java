@@ -50,7 +50,7 @@ import okhttp3.Callback;
 import okhttp3.Request;
 import okhttp3.Response;
 
-public class MainActivity extends AppCompatActivity
+public class MainActivity extends SecureActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     private FragmentManager fragmentManager;
@@ -75,8 +75,6 @@ public class MainActivity extends AppCompatActivity
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
         setContentView(R.layout.activity_main);
 

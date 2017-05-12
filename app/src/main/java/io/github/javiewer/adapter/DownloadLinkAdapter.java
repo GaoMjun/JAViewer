@@ -5,12 +5,9 @@ import android.app.ProgressDialog;
 import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-<<<<<<< HEAD
 import android.content.Intent;
 import android.net.Uri;
 import android.support.v7.widget.CardView;
-=======
->>>>>>> 458a8fc4adccb68209a10f5e36ada1a67758f4d9
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
